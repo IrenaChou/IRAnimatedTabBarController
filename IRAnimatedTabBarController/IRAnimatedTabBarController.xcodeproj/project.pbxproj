@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776B27011EEA39E7008B5D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27001EEA39E7008B5D0B /* main.m */; };
+		776B27041EEA39E7008B5D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27031EEA39E7008B5D0B /* AppDelegate.m */; };
+		776B270A1EEA39E7008B5D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776B27081EEA39E7008B5D0B /* Main.storyboard */; };
+		776B270C1EEA39E7008B5D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776B270B1EEA39E7008B5D0B /* Assets.xcassets */; };
+		776B270F1EEA39E7008B5D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776B270D1EEA39E7008B5D0B /* LaunchScreen.storyboard */; };
+		776B271A1EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27191EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.m */; };
+		776B27251EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27241EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.m */; };
+		776B27481EEA3DDC008B5D0B /* IRBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27471EEA3DDC008B5D0B /* IRBadge.m */; };
+		776B274C1EEA3F13008B5D0B /* IRAnimatedTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B274B1EEA3F13008B5D0B /* IRAnimatedTabBarItem.m */; };
+		776B27511EEA6B23008B5D0B /* IRItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27501EEA6B23008B5D0B /* IRItemAnimation.m */; };
+		776B27541EEA7238008B5D0B /* IRBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27531EEA7238008B5D0B /* IRBounceAnimation.m */; };
+		776B27571EEA79A3008B5D0B /* IRFrameItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27561EEA79A3008B5D0B /* IRFrameItemAnimation.m */; };
+		776B275D1EEA8585008B5D0B /* IRRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B275C1EEA8585008B5D0B /* IRRotationAnimation.m */; };
+		776B27601EEA8597008B5D0B /* IRTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B275F1EEA8597008B5D0B /* IRTransitionItemAnimations.m */; };
+		776B27631EEA85CA008B5D0B /* IRFumeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27621EEA85CA008B5D0B /* IRFumeAnimation.m */; };
+		776B27661EEA9206008B5D0B /* IRLeftRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27651EEA9206008B5D0B /* IRLeftRotationAnimation.m */; };
+		776B27691EEA924B008B5D0B /* IRRightRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27681EEA924B008B5D0B /* IRRightRotationAnimation.m */; };
+		776B276C1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B276B1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.m */; };
+		776B276F1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B276E1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.m */; };
+		776B27721EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27711EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.m */; };
+		776B27751EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27741EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.m */; };
+		776B27781EEA9BA3008B5D0B /* IRAnimatedTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B27771EEA9BA3008B5D0B /* IRAnimatedTabBarController.m */; };
+		776B277B1EEA9EB8008B5D0B /* IRIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B277A1EEA9EB8008B5D0B /* IRIconView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776B27161EEA39E8008B5D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776B26F41EEA39E7008B5D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776B26FB1EEA39E7008B5D0B;
+			remoteInfo = IRAnimatedTabBarController;
+		};
+		776B27211EEA39E8008B5D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776B26F41EEA39E7008B5D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776B26FB1EEA39E7008B5D0B;
+			remoteInfo = IRAnimatedTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776B26FC1EEA39E7008B5D0B /* IRAnimatedTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRAnimatedTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B27001EEA39E7008B5D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776B27021EEA39E7008B5D0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		776B27031EEA39E7008B5D0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		776B27091EEA39E7008B5D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776B270B1EEA39E7008B5D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776B270E1EEA39E7008B5D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776B27101EEA39E7008B5D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776B27151EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRAnimatedTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B27191EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAnimatedTabBarControllerTests.m; sourceTree = "<group>"; };
+		776B271B1EEA39E8008B5D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776B27201EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRAnimatedTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B27241EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAnimatedTabBarControllerUITests.m; sourceTree = "<group>"; };
+		776B27261EEA39E8008B5D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776B27461EEA3DDC008B5D0B /* IRBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRBadge.h; sourceTree = "<group>"; };
+		776B27471EEA3DDC008B5D0B /* IRBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRBadge.m; sourceTree = "<group>"; };
+		776B274A1EEA3F13008B5D0B /* IRAnimatedTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRAnimatedTabBarItem.h; sourceTree = "<group>"; };
+		776B274B1EEA3F13008B5D0B /* IRAnimatedTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRAnimatedTabBarItem.m; sourceTree = "<group>"; };
+		776B274F1EEA6B23008B5D0B /* IRItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRItemAnimation.h; sourceTree = "<group>"; };
+		776B27501EEA6B23008B5D0B /* IRItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRItemAnimation.m; sourceTree = "<group>"; };
+		776B27521EEA7238008B5D0B /* IRBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRBounceAnimation.h; sourceTree = "<group>"; };
+		776B27531EEA7238008B5D0B /* IRBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRBounceAnimation.m; sourceTree = "<group>"; };
+		776B27551EEA79A3008B5D0B /* IRFrameItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFrameItemAnimation.h; sourceTree = "<group>"; };
+		776B27561EEA79A3008B5D0B /* IRFrameItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFrameItemAnimation.m; sourceTree = "<group>"; };
+		776B275B1EEA8585008B5D0B /* IRRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRRotationAnimation.h; sourceTree = "<group>"; };
+		776B275C1EEA8585008B5D0B /* IRRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRRotationAnimation.m; sourceTree = "<group>"; };
+		776B275E1EEA8597008B5D0B /* IRTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTransitionItemAnimations.h; sourceTree = "<group>"; };
+		776B275F1EEA8597008B5D0B /* IRTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRTransitionItemAnimations.m; sourceTree = "<group>"; };
+		776B27611EEA85CA008B5D0B /* IRFumeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFumeAnimation.h; sourceTree = "<group>"; };
+		776B27621EEA85CA008B5D0B /* IRFumeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFumeAnimation.m; sourceTree = "<group>"; };
+		776B27641EEA9206008B5D0B /* IRLeftRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRLeftRotationAnimation.h; sourceTree = "<group>"; };
+		776B27651EEA9206008B5D0B /* IRLeftRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRLeftRotationAnimation.m; sourceTree = "<group>"; };
+		776B27671EEA924B008B5D0B /* IRRightRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRRightRotationAnimation.h; sourceTree = "<group>"; };
+		776B27681EEA924B008B5D0B /* IRRightRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRRightRotationAnimation.m; sourceTree = "<group>"; };
+		776B276A1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFlipLeftTransitionItemAnimations.h; sourceTree = "<group>"; };
+		776B276B1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFlipLeftTransitionItemAnimations.m; sourceTree = "<group>"; };
+		776B276D1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFlipRightTransitionItemAnimations.h; sourceTree = "<group>"; };
+		776B276E1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFlipRightTransitionItemAnimations.m; sourceTree = "<group>"; };
+		776B27701EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFlipTopTransitionItemAnimations.h; sourceTree = "<group>"; };
+		776B27711EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFlipTopTransitionItemAnimations.m; sourceTree = "<group>"; };
+		776B27731EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRFlipBottomTransitionItemAnimations.h; sourceTree = "<group>"; };
+		776B27741EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRFlipBottomTransitionItemAnimations.m; sourceTree = "<group>"; };
+		776B27761EEA9BA3008B5D0B /* IRAnimatedTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRAnimatedTabBarController.h; sourceTree = "<group>"; };
+		776B27771EEA9BA3008B5D0B /* IRAnimatedTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRAnimatedTabBarController.m; sourceTree = "<group>"; };
+		776B27791EEA9EB8008B5D0B /* IRIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRIconView.h; sourceTree = "<group>"; };
+		776B277A1EEA9EB8008B5D0B /* IRIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRIconView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776B26F91EEA39E7008B5D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B27121EEA39E8008B5D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B271D1EEA39E8008B5D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776B26F31EEA39E7008B5D0B = {
+			isa = PBXGroup;
+			children = (
+				776B26FE1EEA39E7008B5D0B /* IRAnimatedTabBarController */,
+				776B27181EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests */,
+				776B27231EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests */,
+				776B26FD1EEA39E7008B5D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776B26FD1EEA39E7008B5D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776B26FC1EEA39E7008B5D0B /* IRAnimatedTabBarController.app */,
+				776B27151EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.xctest */,
+				776B27201EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776B26FE1EEA39E7008B5D0B /* IRAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				776B27321EEA3A93008B5D0B /* Classes */,
+				776B27021EEA39E7008B5D0B /* AppDelegate.h */,
+				776B27031EEA39E7008B5D0B /* AppDelegate.m */,
+				776B27081EEA39E7008B5D0B /* Main.storyboard */,
+				776B270B1EEA39E7008B5D0B /* Assets.xcassets */,
+				776B270D1EEA39E7008B5D0B /* LaunchScreen.storyboard */,
+				776B27101EEA39E7008B5D0B /* Info.plist */,
+				776B26FF1EEA39E7008B5D0B /* Supporting Files */,
+			);
+			path = IRAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		776B26FF1EEA39E7008B5D0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776B27001EEA39E7008B5D0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		776B27181EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				776B27191EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.m */,
+				776B271B1EEA39E8008B5D0B /* Info.plist */,
+			);
+			path = IRAnimatedTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		776B27231EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				776B27241EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.m */,
+				776B27261EEA39E8008B5D0B /* Info.plist */,
+			);
+			path = IRAnimatedTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		776B27321EEA3A93008B5D0B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				776B273B1EEA3AC1008B5D0B /* IRAnimatedTabBarController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		776B273B1EEA3AC1008B5D0B /* IRAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				776B274F1EEA6B23008B5D0B /* IRItemAnimation.h */,
+				776B27501EEA6B23008B5D0B /* IRItemAnimation.m */,
+				776B274E1EEA4082008B5D0B /* View */,
+				776B273C1EEA3AC1008B5D0B /* Animations */,
+				776B27421EEA3AC1008B5D0B /* IRBadge */,
+				776B274A1EEA3F13008B5D0B /* IRAnimatedTabBarItem.h */,
+				776B274B1EEA3F13008B5D0B /* IRAnimatedTabBarItem.m */,
+				776B27761EEA9BA3008B5D0B /* IRAnimatedTabBarController.h */,
+				776B27771EEA9BA3008B5D0B /* IRAnimatedTabBarController.m */,
+			);
+			path = IRAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		776B273C1EEA3AC1008B5D0B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				776B273D1EEA3AC1008B5D0B /* BounceAnimation */,
+				776B273E1EEA3AC1008B5D0B /* FrameAnimation */,
+				776B273F1EEA3AC1008B5D0B /* FumeAnimation */,
+				776B27401EEA3AC1008B5D0B /* RotationAnimation */,
+				776B27411EEA3AC1008B5D0B /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		776B273D1EEA3AC1008B5D0B /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				776B27521EEA7238008B5D0B /* IRBounceAnimation.h */,
+				776B27531EEA7238008B5D0B /* IRBounceAnimation.m */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		776B273E1EEA3AC1008B5D0B /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				776B27551EEA79A3008B5D0B /* IRFrameItemAnimation.h */,
+				776B27561EEA79A3008B5D0B /* IRFrameItemAnimation.m */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		776B273F1EEA3AC1008B5D0B /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				776B27611EEA85CA008B5D0B /* IRFumeAnimation.h */,
+				776B27621EEA85CA008B5D0B /* IRFumeAnimation.m */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		776B27401EEA3AC1008B5D0B /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				776B275B1EEA8585008B5D0B /* IRRotationAnimation.h */,
+				776B275C1EEA8585008B5D0B /* IRRotationAnimation.m */,
+				776B27641EEA9206008B5D0B /* IRLeftRotationAnimation.h */,
+				776B27651EEA9206008B5D0B /* IRLeftRotationAnimation.m */,
+				776B27671EEA924B008B5D0B /* IRRightRotationAnimation.h */,
+				776B27681EEA924B008B5D0B /* IRRightRotationAnimation.m */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		776B27411EEA3AC1008B5D0B /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				776B275E1EEA8597008B5D0B /* IRTransitionItemAnimations.h */,
+				776B275F1EEA8597008B5D0B /* IRTransitionItemAnimations.m */,
+				776B276A1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.h */,
+				776B276B1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.m */,
+				776B276D1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.h */,
+				776B276E1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.m */,
+				776B27701EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.h */,
+				776B27711EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.m */,
+				776B27731EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.h */,
+				776B27741EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.m */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		776B27421EEA3AC1008B5D0B /* IRBadge */ = {
+			isa = PBXGroup;
+			children = (
+				776B27461EEA3DDC008B5D0B /* IRBadge.h */,
+				776B27471EEA3DDC008B5D0B /* IRBadge.m */,
+			);
+			path = IRBadge;
+			sourceTree = "<group>";
+		};
+		776B274E1EEA4082008B5D0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				776B27791EEA9EB8008B5D0B /* IRIconView.h */,
+				776B277A1EEA9EB8008B5D0B /* IRIconView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776B26FB1EEA39E7008B5D0B /* IRAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776B27291EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarController" */;
+			buildPhases = (
+				776B26F81EEA39E7008B5D0B /* Sources */,
+				776B26F91EEA39E7008B5D0B /* Frameworks */,
+				776B26FA1EEA39E7008B5D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRAnimatedTabBarController;
+			productName = IRAnimatedTabBarController;
+			productReference = 776B26FC1EEA39E7008B5D0B /* IRAnimatedTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776B27141EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776B272C1EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarControllerTests" */;
+			buildPhases = (
+				776B27111EEA39E8008B5D0B /* Sources */,
+				776B27121EEA39E8008B5D0B /* Frameworks */,
+				776B27131EEA39E8008B5D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776B27171EEA39E8008B5D0B /* PBXTargetDependency */,
+			);
+			name = IRAnimatedTabBarControllerTests;
+			productName = IRAnimatedTabBarControllerTests;
+			productReference = 776B27151EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776B271F1EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776B272F1EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarControllerUITests" */;
+			buildPhases = (
+				776B271C1EEA39E8008B5D0B /* Sources */,
+				776B271D1EEA39E8008B5D0B /* Frameworks */,
+				776B271E1EEA39E8008B5D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776B27221EEA39E8008B5D0B /* PBXTargetDependency */,
+			);
+			name = IRAnimatedTabBarControllerUITests;
+			productName = IRAnimatedTabBarControllerUITests;
+			productReference = 776B27201EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776B26F41EEA39E7008B5D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IR;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = irena;
+				TargetAttributes = {
+					776B26FB1EEA39E7008B5D0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					776B27141EEA39E8008B5D0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 776B26FB1EEA39E7008B5D0B;
+					};
+					776B271F1EEA39E8008B5D0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 776B26FB1EEA39E7008B5D0B;
+					};
+				};
+			};
+			buildConfigurationList = 776B26F71EEA39E7008B5D0B /* Build configuration list for PBXProject "IRAnimatedTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776B26F31EEA39E7008B5D0B;
+			productRefGroup = 776B26FD1EEA39E7008B5D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776B26FB1EEA39E7008B5D0B /* IRAnimatedTabBarController */,
+				776B27141EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests */,
+				776B271F1EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776B26FA1EEA39E7008B5D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B270F1EEA39E7008B5D0B /* LaunchScreen.storyboard in Resources */,
+				776B270C1EEA39E7008B5D0B /* Assets.xcassets in Resources */,
+				776B270A1EEA39E7008B5D0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B27131EEA39E8008B5D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B271E1EEA39E8008B5D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776B26F81EEA39E7008B5D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B27631EEA85CA008B5D0B /* IRFumeAnimation.m in Sources */,
+				776B27511EEA6B23008B5D0B /* IRItemAnimation.m in Sources */,
+				776B27041EEA39E7008B5D0B /* AppDelegate.m in Sources */,
+				776B27481EEA3DDC008B5D0B /* IRBadge.m in Sources */,
+				776B27541EEA7238008B5D0B /* IRBounceAnimation.m in Sources */,
+				776B276C1EEA954E008B5D0B /* IRFlipLeftTransitionItemAnimations.m in Sources */,
+				776B274C1EEA3F13008B5D0B /* IRAnimatedTabBarItem.m in Sources */,
+				776B27691EEA924B008B5D0B /* IRRightRotationAnimation.m in Sources */,
+				776B27721EEA95BC008B5D0B /* IRFlipTopTransitionItemAnimations.m in Sources */,
+				776B27751EEA95E5008B5D0B /* IRFlipBottomTransitionItemAnimations.m in Sources */,
+				776B277B1EEA9EB8008B5D0B /* IRIconView.m in Sources */,
+				776B27781EEA9BA3008B5D0B /* IRAnimatedTabBarController.m in Sources */,
+				776B27571EEA79A3008B5D0B /* IRFrameItemAnimation.m in Sources */,
+				776B276F1EEA959B008B5D0B /* IRFlipRightTransitionItemAnimations.m in Sources */,
+				776B27661EEA9206008B5D0B /* IRLeftRotationAnimation.m in Sources */,
+				776B275D1EEA8585008B5D0B /* IRRotationAnimation.m in Sources */,
+				776B27601EEA8597008B5D0B /* IRTransitionItemAnimations.m in Sources */,
+				776B27011EEA39E7008B5D0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B27111EEA39E8008B5D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B271A1EEA39E8008B5D0B /* IRAnimatedTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776B271C1EEA39E8008B5D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776B27251EEA39E8008B5D0B /* IRAnimatedTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776B27171EEA39E8008B5D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776B26FB1EEA39E7008B5D0B /* IRAnimatedTabBarController */;
+			targetProxy = 776B27161EEA39E8008B5D0B /* PBXContainerItemProxy */;
+		};
+		776B27221EEA39E8008B5D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776B26FB1EEA39E7008B5D0B /* IRAnimatedTabBarController */;
+			targetProxy = 776B27211EEA39E8008B5D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776B27081EEA39E7008B5D0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776B27091EEA39E7008B5D0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776B270D1EEA39E7008B5D0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776B270E1EEA39E7008B5D0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776B27271EEA39E8008B5D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		776B27281EEA39E8008B5D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776B272A1EEA39E8008B5D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRAnimatedTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		776B272B1EEA39E8008B5D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRAnimatedTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		776B272D1EEA39E8008B5D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRAnimatedTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAnimatedTabBarController.app/IRAnimatedTabBarController";
+			};
+			name = Debug;
+		};
+		776B272E1EEA39E8008B5D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRAnimatedTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAnimatedTabBarController.app/IRAnimatedTabBarController";
+			};
+			name = Release;
+		};
+		776B27301EEA39E8008B5D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRAnimatedTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRAnimatedTabBarController;
+			};
+			name = Debug;
+		};
+		776B27311EEA39E8008B5D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRAnimatedTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRAnimatedTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRAnimatedTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776B26F71EEA39E7008B5D0B /* Build configuration list for PBXProject "IRAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B27271EEA39E8008B5D0B /* Debug */,
+				776B27281EEA39E8008B5D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776B27291EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B272A1EEA39E8008B5D0B /* Debug */,
+				776B272B1EEA39E8008B5D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776B272C1EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B272D1EEA39E8008B5D0B /* Debug */,
+				776B272E1EEA39E8008B5D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776B272F1EEA39E8008B5D0B /* Build configuration list for PBXNativeTarget "IRAnimatedTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B27301EEA39E8008B5D0B /* Debug */,
+				776B27311EEA39E8008B5D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776B26F41EEA39E7008B5D0B /* Project object */;
+}
